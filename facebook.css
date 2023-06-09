@@ -1,0 +1,69 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #3b5998;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#brand {
+    color: #1877F2;
+    font-size: 50px;
+    font-family: Klavika;
+    align-self: center;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    background-color: aliceblue;
+    border-bottom: 1px solid #3b5998;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6em 0em;
+    text-align: center;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+#Forgotten {
+    color: blue;
+}
+
+header form{
+    color: blue;
+    margin-left: 35%;
+}
+
+header form ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+header li{
+    align-self: flex-start;
+    padding: 0.2em 0.5em;
+    font-size: 80%;
+}
+
+header input{
+    margin-bottom: 0.8em;
+    height: 18px;
+}
+
+header form input[type="submit"]{
+    background-color: #4267b2;
+    border: 1px solid #08298a;
+    color: white;
+    height: 24px;
+    font-weight: bold;
+    margin-top: 28%;
+    cursor: pointer;
+}

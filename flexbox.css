@@ -1,0 +1,24 @@
+.parent > div {
+    background-color: rgb(27, 111, 10);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+
+.parent{
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    align-items: stretch;
+}
+
+#four{
+    /* flex-grow: 4; */
+    flex-shrink: 4;
+}
